@@ -1489,11 +1489,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AppSalesMobile_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				PRODUCT_NAME = AppSalesMobile;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				VERSION = 1.0.1;
 			};
 			name = Release;
@@ -1516,13 +1518,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ole Zorn";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AppSalesMobile_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				PRODUCT_NAME = AppSalesMobile;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B62523D9-0D86-4FE2-9212-10D397E6472A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				VERSION = 1.0.1;
 			};
 			name = Distribution;
